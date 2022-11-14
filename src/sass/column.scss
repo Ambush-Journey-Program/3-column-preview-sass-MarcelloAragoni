@@ -1,0 +1,61 @@
+@import './root.scss';
+
+.column {
+    width: 100%;
+    height: 31.375rem;
+
+    *+* {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    &__title {
+        color: $white;
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    &__info {
+        padding-top: 1rem;
+        font-size: 18px;
+        line-height: 1.3em;
+    }
+
+    >.button {
+        margin-top: 7.5rem;
+        margin-left: 3rem;
+    }
+
+    &--sedans {
+        background-color: $orange;
+
+        >.column__info {
+            color: $white;
+        }
+    }
+
+    &--suvs {
+        background-color: $green ;
+
+        >.column__info {
+            color: $white;
+        }
+    }
+
+    &--luxury {
+        background-color: $blue;
+
+        >.column__info {
+            color: $white;
+        }
+    }
+
+    &__img {
+        margin-top: 0px;
+        padding-left: 5.875rem;
+        padding-top: 3rem;
+        width: 4rem;
+        height: 2.5rem;
+    }
+}

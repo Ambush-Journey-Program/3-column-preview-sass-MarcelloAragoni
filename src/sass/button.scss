@@ -1,0 +1,41 @@
+@import './root.scss';
+
+.button {
+  width: 9.125rem;
+  justify-self: center;
+  height: 3rem;
+  border-radius: 25px;
+  border-width: 0px;
+  background-color: $white;
+  padding-inline: 1.96875rem;
+  font-weight: bold;
+
+  &:hover {
+    border: 2px solid $white;
+    color: $white;
+  }
+
+  &--orange {
+    color: $orange;
+
+    &:hover {
+      background-color: $orange;
+    }
+  }
+
+  &--green {
+    color: $green;
+
+    &:hover {
+      background-color: $green;
+    }
+  }
+
+  &--blue {
+    color: $blue;
+
+    &:hover {
+      background-color: $blue
+    }
+  }
+}
